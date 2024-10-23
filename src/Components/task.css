@@ -1,0 +1,42 @@
+
+
+.welcome-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+
+.task-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.task-card:hover {
+    transform: scale(1.02);
+}
+
+.task-title {
+    flex-grow: 1;
+}
+
+.delete-icon {
+    transition: color 0.3s;
+}
+
+.delete-icon:hover {
+    color: darkred;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

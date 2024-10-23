@@ -1,0 +1,44 @@
+.card {
+  max-width: 100%;
+  margin: auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+      padding: 1.5rem;
+  }
+
+  h3 {
+      font-size: 1.25rem;
+  }
+
+  .bg-light {
+      padding: 1rem;
+  }
+
+  strong, span {
+      font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+      padding: 1rem;
+  }
+
+  h3 {
+      font-size: 1rem;
+  }
+
+  .bg-light {
+      padding: 0.75rem;
+  }
+
+  strong, span {
+      font-size: 0.85rem;
+  }
+}
